@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %} About | {{ super() }} {% endblock %}
+
+
+{% block content %}
+
+<div class="wrapper">
+    <section>
+        <h3>Project Information</h3>
+        <p>
+            Welcome to my blog! I have developed this blog using Flask and Werkzeug. Flask is a micro web framework written in Python and Werkzeug is a comprehensive WSGI web application library. This is my first ever project and I am excited to show it to you! This application is currently being developed and is debugged with Werkzeug's debug mode. 
+
+            <br>
+
+            Dependencies Used
+
+            <table>
+            	<tr>
+            		<th> Dependency &nbsp </th>
+            		<th> Version </th>
+            	</tr>
+            	<tr>
+            		<td> Flask &nbsp&nbsp </td>
+            		<td> 0.10 </td>
+            	</tr>
+            	<tr>
+            		<td> Flask-SQLAlchemy &nbsp </td>
+            		<td> 2.4.1 </td>
+            	<tr>
+            		<td> Werkzeug </td>
+            		<td> 0.10.4 </td>
+            	</tr>
+            </table>
+        </p>
+    </section>
+</div>
+
+{% endblock %}

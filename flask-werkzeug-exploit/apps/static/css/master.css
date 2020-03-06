@@ -1,0 +1,17 @@
+/*
+font-family: 'Dosis', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Roboto Mono', monospace;
+*/
+
+body {
+    font-family: 'Inconsolata', monospace;
+    background-color: #dce0f1;
+    color: #35184b;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+textarea {
+    resize: none;
+}

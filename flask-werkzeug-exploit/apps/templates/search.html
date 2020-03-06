@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %} Search | {{ super() }} {% endblock %}
+
+
+{% block content %}
+
+
+
+<div class="wrapper">
+
+    <form class="form-group" action="{{ url_for("search_post") }}" id="content" method="POST">
+        <div class="row">
+            <div class="col-12">
+                <label for="search">Search</label>
+                <input type="text" name="search" id="search" class="form-control" placeholder="Type a Username to Search Ex: mmarconm" >
+                <br>
+                <input type="submit" class="form-control btn btn-primary" name="" value="Search">
+            </div>
+        </div>
+    </form>
+</div>
+
+
+<div class="search-wrapper">
+    <h3>{{ g.me.username }}</h3>
+    <p>{{ g.me.title }}</p>
+    <p>{{ g.me.email }}</p>
+    <p>{{ g.me.content }}</p>
+</div>
+{% endblock %}
