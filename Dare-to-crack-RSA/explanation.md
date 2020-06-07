@@ -32,15 +32,13 @@ or	`x*15 + y*13 = 1`
 
 We find that: `x = -6 y = 7`
 
-
+Now,
 ```
-ct1^x = pt^(e1*x)
-ct2^y = pt^(e2*y)
 (ct1^x * ct2^y)modn = [((pt^e1)modn)^x*((pt^e2)modn)^y]modn
 ```
 
 By modular exponentiation property,
-`c modm = [(a modm)*(b modm)]modm`
+`[(a modm)*(b modm)]modm = c modm`
 where `a*b = c`
 
 Applying this property,
