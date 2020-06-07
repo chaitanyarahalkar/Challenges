@@ -1,4 +1,7 @@
 ## Problem Statement: Dare-to-crack-RSA
+
+A plaintext message was encrypted twice using RSA algorithm. Once, it was encrypted using public key (n,e1), which gave ciphertext ct1. Another time it was encrypted using public key (n,e2), which gave ciphertext ct2. Can you figure out the plaintext?
+
 ```
 ct1 = 49510902928510421799047501082367680905963751939213705352233627593607976175625096975769959313653250524320434594448458787627460050250031152633610497671860585274115780534889636642389014682500695818033649166708515548779492771966001556645792362792426525134407
 ct2 = 25784197686505489225078080728960342887241742102189561819495595678973261644802936524609691905385244001154455693544083878359200918275331715694924828080154173140019815357764024886950058241002984195119427758087660518750352604837279880626891178596011131080921
@@ -9,7 +12,7 @@ e2 = 13
 
 
 ## Hint:
-The extended Euclidean algorithm can be useful to look at. Also, don't ignore how small the e values are.
+The extended Euclidean algorithm and modular exponentiation property can be useful to look at. Do not forget to convert the decimal plaintext into its hexadecimal equivalent before converting it to get an ascii string.
 
 
 ## Explanation:
