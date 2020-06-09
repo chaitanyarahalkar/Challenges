@@ -9,7 +9,7 @@ Morse code
 
 ## Explanation:
 
-The file provided is an audio file containing message in morse code. Decode the file using any online morse code audio file decoder to get the flag
+The file provided is an audio file containing message in morse code. Decode the file using any online morse code audio file decoder to get the flag.
 
 Message uncovered is `morserules`
 
