@@ -18,4 +18,4 @@ Now, we have to send an Array in the `password` GET parameter. We can send an ar
 
 `http://link.com/?password[]=""`
 
-Flag: lakshya_CTF{==i5_w34K}
+Flag: `lakshya_CTF{==i5_w34K}`
