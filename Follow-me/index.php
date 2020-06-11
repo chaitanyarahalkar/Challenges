@@ -43,7 +43,7 @@ ob_end_flush();
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 	    
-<!-- It is advised that no file of file type other than .php must reside on the webserver -->
+
 	    
 </div>
     <div class="col" style="margin-left: 180px;">
