@@ -1,6 +1,6 @@
 ## Problem: 2018-14573
 
-This website seems to show product details. Try searching for product id 1 or 2, to get an idea. But, can it show more than that?
+This website seems to show product details. Try searching for product id 1 or 2, to get an idea. But, can it show more than that? Something like /home/lakshya/flag.txt? 
 
 ## Hint: 
 CVE-2018-14573
