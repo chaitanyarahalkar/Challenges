@@ -7,7 +7,7 @@
 #define BUFSIZE 148
 #define FLAGSIZE 128
 
-int flag(char *buf){
+int flag(){
   char flag[48];
   FILE *file;
   file = fopen("flag.txt", "r");
