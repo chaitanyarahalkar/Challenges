@@ -1,9 +1,14 @@
-# Safeguard Your Backups
+## Problem: Safeguard Your Backups
 
+We found a lost backup on an old machine. You shall find here, what you seek.
 
-Problem Statement: We found a lost backup on an old machine. You shall find here, what you seek.
+## Hint:
 
-This is a Linux EXT-4 file system backup taken using the dump utility in Linux. It is available by default on RHEL-based distros. 
+Look out for Linux backup commands
+
+## Explanation:
+
+This is a Linux EXT-4 file system backup taken using the `dump` utility in Linux. It is available by default on RHEL-based distros. 
 
 Install it on Debian-based distros using 
 
@@ -19,5 +24,4 @@ lakshya@ctf$ ls -l home/lakshya/
 ```
 flag.pdf file exists in the lakshya home directory. 
 
-Hint: Look out for Linux backup commands
-Flag: lakshya_CTF{kn0W_y0Ur_84CkuP2}
+Flag: `lakshya_CTF{kn0W_y0Ur_84CkuP2}`
