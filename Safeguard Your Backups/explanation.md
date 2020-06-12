@@ -14,7 +14,7 @@ lakshya@ctf: mkdir restore && cd restore
 lakshya@ctf$ restore -rf linfs.back
 lakshya@ctf$ ls -l home/lakshya/
 ```
-
 flag.pdf file exists in the lakshya home directory. 
 
+Hint: Look out for Linux backup commands
 Flag: lakshya_CTF{kn0W_y0Ur_84CkuP2}
