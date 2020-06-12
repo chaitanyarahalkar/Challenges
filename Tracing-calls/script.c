@@ -23,11 +23,6 @@ int flag(){
 
 int main(int argc, char **argv){
 
-  setvbuf(stdout, NULL, _IONBF, 0);
-  
-  // Set the gid to the effective gid
-  // this prevents /bin/sh from dropping the privileges
-  
   char password[64];
   char phrase[48];
   FILE *file;
@@ -44,6 +39,9 @@ int main(int argc, char **argv){
   if (!strcmp(phrase, password)) {
     flag();
   }
-     
+  else
+  {
+    puts("Incorrect password");
+  } 
   return 0;
 }
