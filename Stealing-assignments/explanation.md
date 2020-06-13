@@ -1,10 +1,10 @@
 ## Problem: Stealing assignments
 
-Elliot hasn't submitted his assignment on <a href="">this</a> assignment submission portal yet. He wants to steal whiterose's assignment. Help him do that. Elliot's username: elliot, password: elliot123. Whiterose's username: whiterose.
+Elliot hasn't submitted his assignment on <a href="">this</a> assignment submission portal yet. He wants to steal Whiterose's assignment. Help him do that. Elliot's username: elliot, password: elliot123. Whiterose's username: whiterose.
 
 ## Hint:
 
-Keep a look on the url which is generated after a successful login attempt. 
+Keep a look at the URL which is generated after a successful login attempt. 
 
 ## Explanation:
 
