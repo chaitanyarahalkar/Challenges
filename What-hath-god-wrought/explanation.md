@@ -2,7 +2,7 @@
 
 This tradition started since Friday, May 24, 1844
 
-Please note: Enter the flag in format lakshya_CTF{secretmessage}, where secret message is the message that you uncover from the file.
+Please note: Enter the flag in format lakshya_CTF{secretmessage}, where secretmessage is the message that you uncover from the file.
 
 ## Hint:
 Morse code
