@@ -1,4 +1,4 @@
-## Problem: Can-you-hack-ftp
+## Problem: Can-you-hack-FTP
 
 FTP doesn't encrypt its traffic. You can really see usernames, passwords and data in clear text. Maybe you might be able to see the flag as well! 
 
