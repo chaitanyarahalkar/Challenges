@@ -3,7 +3,7 @@
 PHP suffers from the type juggling vulnerability. Can you exploit it <a href="https://vast-stream-67888.herokuapp.com/" target="_BLANK">here</a>?  
 
 ## Hint: 
-Type Juggling. The starting bits of the hash and the hashing algorithm used have a significance.
+Type Juggling. The starting bits of the hash and the hashing algorithm used are of significance.
 
 ## Explanation:
 
